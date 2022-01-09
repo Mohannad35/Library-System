@@ -259,9 +259,9 @@ CREATE TABLE `dayoperations`
     `branch_id`     int(11) NOT NULL,
     `delay`         int(11) DEFAULT 0,
     `fees`          FLOAT(11) DEFAULT 0,
-    `date_to`       DATE     DEFAULT NULL,
-    `retrieve_date` DATE     DEFAULT NULL,
-    `create_date`   DATETIME DEFAULT CURRENT_TIMESTAMP,
+    `date_to`       DATE      DEFAULT NULL,
+    `retrieve_date` DATE      DEFAULT NULL,
+    `create_date`   DATETIME  DEFAULT CURRENT_TIMESTAMP,
     CONSTRAINT fk_book FOREIGN KEY (book_id)
         REFERENCES book (id)
         ON DELETE CASCADE,
@@ -299,6 +299,7 @@ CREATE TABLE `users`
     `name`        varchar(45) NOT NULL,
     `email`       varchar(45) NOT NULL,
     `password`    varchar(45) NOT NULL,
+    `client_id`   int(11) DEFAULT NULL,
     `add_user`    BOOL     DEFAULT false,
     `add_book`    BOOL     DEFAULT false,
     `remove_user` BOOL     DEFAULT false,
@@ -312,7 +313,10 @@ CREATE TABLE `users`
     `reports`     BOOL     DEFAULT false,
     `settings`    BOOL     DEFAULT false,
     `create_date` DATETIME DEFAULT CURRENT_TIMESTAMP,
-    PRIMARY KEY (`id`)
+    PRIMARY KEY (`id`),
+    CONSTRAINT fk_client_user FOREIGN KEY (client_id)
+        REFERENCES clients (id)
+        ON DELETE CASCADE
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -323,8 +327,8 @@ CREATE TABLE `users`
 LOCK
 TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` (id, name, email, password)
-VALUES (1, 'Admin', 'admin', 'admin');
+INSERT INTO users (name, email, password)
+VALUES ('admin', 'admin', 'admin');
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK
 TABLES;

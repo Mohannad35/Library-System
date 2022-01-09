@@ -482,7 +482,7 @@ QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical
                <item row="1" column="0">
                 <widget class="QLabel" name="label_29">
                  <property name="text">
-                  <string>Your password is incorrect, Reset ypur password From here</string>
+                  <string>Your password is incorrect, Reset your password From here</string>
                  </property>
                 </widget>
                </item>

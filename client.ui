@@ -559,186 +559,13 @@ QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical
            <string notr="true"/>
           </property>
           <property name="currentIndex">
-           <number>0</number>
+           <number>3</number>
           </property>
           <widget class="QWidget" name="tab_2">
            <attribute name="title">
             <string>Items</string>
            </attribute>
            <layout class="QGridLayout" name="gridLayout_6">
-            <item row="0" column="1">
-             <widget class="QLineEdit" name="lineEdit_2">
-              <property name="sizePolicy">
-               <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-                <horstretch>0</horstretch>
-                <verstretch>0</verstretch>
-               </sizepolicy>
-              </property>
-              <property name="font">
-               <font>
-                <family>MS Shell Dlg 2</family>
-                <weight>75</weight>
-                <bold>true</bold>
-               </font>
-              </property>
-              <property name="placeholderText">
-               <string>Title</string>
-              </property>
-             </widget>
-            </item>
-            <item row="0" column="3">
-             <widget class="QComboBox" name="comboBox_7">
-              <property name="sizePolicy">
-               <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-                <horstretch>0</horstretch>
-                <verstretch>0</verstretch>
-               </sizepolicy>
-              </property>
-              <property name="font">
-               <font>
-                <weight>75</weight>
-                <bold>true</bold>
-               </font>
-              </property>
-              <property name="styleSheet">
-               <string notr="true">border-style: outset;
-	border-width: 2px;
-	border-top-color: qlineargradient(spread:pad, x1:0.5, y1:0.6, x2:0.5, y2:0.4, stop:0 rgba(115, 115, 115, 255), stop:1 rgba(62, 62, 62, 255));
-	border-right-color: qlineargradient(spread:pad, x1:0.4, y1:0.5, x2:0.6, y2:0.5, stop:0 rgba(115, 115, 115, 255), stop:1 rgba(62, 62, 62, 255));
-	border-left-color: qlineargradient(spread:pad, x1:0.6, y1:0.5, x2:0.4, y2:0.5, stop:0 rgba(115, 115, 115, 255), stop:1 rgba(62, 62, 62, 255));
-	border-bottom-color: rgb(58, 58, 58);
-	border-bottom-width: 1px;
-	border-style: solid;
-	border-width: 2px; border-radius: 6px;
-	
-padding: 0 8px;
-</string>
-              </property>
-              <item>
-               <property name="text">
-                <string>----Publication Year----</string>
-               </property>
-              </item>
-             </widget>
-            </item>
-            <item row="0" column="2">
-             <widget class="QComboBox" name="comboBox_2">
-              <property name="sizePolicy">
-               <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-                <horstretch>0</horstretch>
-                <verstretch>0</verstretch>
-               </sizepolicy>
-              </property>
-              <property name="font">
-               <font>
-                <weight>75</weight>
-                <bold>true</bold>
-               </font>
-              </property>
-              <property name="styleSheet">
-               <string notr="true">border-style: outset;
-	border-width: 2px;
-	border-top-color: qlineargradient(spread:pad, x1:0.5, y1:0.6, x2:0.5, y2:0.4, stop:0 rgba(115, 115, 115, 255), stop:1 rgba(62, 62, 62, 255));
-	border-right-color: qlineargradient(spread:pad, x1:0.4, y1:0.5, x2:0.6, y2:0.5, stop:0 rgba(115, 115, 115, 255), stop:1 rgba(62, 62, 62, 255));
-	border-left-color: qlineargradient(spread:pad, x1:0.6, y1:0.5, x2:0.4, y2:0.5, stop:0 rgba(115, 115, 115, 255), stop:1 rgba(62, 62, 62, 255));
-	border-bottom-color: rgb(58, 58, 58);
-	border-bottom-width: 1px;
-	border-style: solid;
-	border-width: 2px; border-radius: 6px;
-	
-padding: 0 8px;
-</string>
-              </property>
-              <property name="currentText">
-               <string>----category----</string>
-              </property>
-              <property name="currentIndex">
-               <number>0</number>
-              </property>
-              <property name="placeholderText">
-               <string/>
-              </property>
-              <item>
-               <property name="text">
-                <string>----category----</string>
-               </property>
-              </item>
-             </widget>
-            </item>
-            <item row="2" column="6">
-             <widget class="QPushButton" name="pushButton_10">
-              <property name="sizePolicy">
-               <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-                <horstretch>0</horstretch>
-                <verstretch>0</verstretch>
-               </sizepolicy>
-              </property>
-              <property name="text">
-               <string>Export</string>
-              </property>
-             </widget>
-            </item>
-            <item row="0" column="4">
-             <widget class="QComboBox" name="comboBox_6">
-              <property name="sizePolicy">
-               <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-                <horstretch>0</horstretch>
-                <verstretch>0</verstretch>
-               </sizepolicy>
-              </property>
-              <property name="font">
-               <font>
-                <weight>75</weight>
-                <bold>true</bold>
-               </font>
-              </property>
-              <property name="styleSheet">
-               <string notr="true">border-style: outset;
-	border-width: 2px;
-	border-top-color: qlineargradient(spread:pad, x1:0.5, y1:0.6, x2:0.5, y2:0.4, stop:0 rgba(115, 115, 115, 255), stop:1 rgba(62, 62, 62, 255));
-	border-right-color: qlineargradient(spread:pad, x1:0.4, y1:0.5, x2:0.6, y2:0.5, stop:0 rgba(115, 115, 115, 255), stop:1 rgba(62, 62, 62, 255));
-	border-left-color: qlineargradient(spread:pad, x1:0.6, y1:0.5, x2:0.4, y2:0.5, stop:0 rgba(115, 115, 115, 255), stop:1 rgba(62, 62, 62, 255));
-	border-bottom-color: rgb(58, 58, 58);
-	border-bottom-width: 1px;
-	border-style: solid;
-	border-width: 2px; border-radius: 6px;
-	
-padding: 0 8px;
-</string>
-              </property>
-              <item>
-               <property name="text">
-                <string>----Author----</string>
-               </property>
-              </item>
-             </widget>
-            </item>
-            <item row="2" column="5">
-             <widget class="QPushButton" name="pushButton_19">
-              <property name="sizePolicy">
-               <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-                <horstretch>0</horstretch>
-                <verstretch>0</verstretch>
-               </sizepolicy>
-              </property>
-              <property name="text">
-               <string>Import</string>
-              </property>
-             </widget>
-            </item>
-            <item row="0" column="6">
-             <widget class="QPushButton" name="pushButton_9">
-              <property name="sizePolicy">
-               <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-                <horstretch>0</horstretch>
-                <verstretch>0</verstretch>
-               </sizepolicy>
-              </property>
-              <property name="text">
-               <string>search</string>
-              </property>
-             </widget>
-            </item>
             <item row="0" column="0">
              <widget class="QComboBox" name="comboBox_3">
               <property name="sizePolicy">
@@ -789,7 +616,51 @@ padding: 0 8px;
               </item>
              </widget>
             </item>
-            <item row="1" column="0" colspan="7">
+            <item row="0" column="2">
+             <widget class="QComboBox" name="comboBox_2">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">border-style: outset;
+	border-width: 2px;
+	border-top-color: qlineargradient(spread:pad, x1:0.5, y1:0.6, x2:0.5, y2:0.4, stop:0 rgba(115, 115, 115, 255), stop:1 rgba(62, 62, 62, 255));
+	border-right-color: qlineargradient(spread:pad, x1:0.4, y1:0.5, x2:0.6, y2:0.5, stop:0 rgba(115, 115, 115, 255), stop:1 rgba(62, 62, 62, 255));
+	border-left-color: qlineargradient(spread:pad, x1:0.6, y1:0.5, x2:0.4, y2:0.5, stop:0 rgba(115, 115, 115, 255), stop:1 rgba(62, 62, 62, 255));
+	border-bottom-color: rgb(58, 58, 58);
+	border-bottom-width: 1px;
+	border-style: solid;
+	border-width: 2px; border-radius: 6px;
+	
+padding: 0 8px;
+</string>
+              </property>
+              <property name="currentText">
+               <string>----category----</string>
+              </property>
+              <property name="currentIndex">
+               <number>0</number>
+              </property>
+              <property name="placeholderText">
+               <string/>
+              </property>
+              <item>
+               <property name="text">
+                <string>----category----</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item row="1" column="0" colspan="6">
              <widget class="QTableWidget" name="tableWidget_22">
               <property name="enabled">
                <bool>true</bool>
@@ -1286,6 +1157,109 @@ padding: 0 8px;
               </column>
              </widget>
             </item>
+            <item row="0" column="1">
+             <widget class="QLineEdit" name="lineEdit_2">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <family>MS Shell Dlg 2</family>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="placeholderText">
+               <string>Title</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="3">
+             <widget class="QComboBox" name="comboBox_7">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">border-style: outset;
+	border-width: 2px;
+	border-top-color: qlineargradient(spread:pad, x1:0.5, y1:0.6, x2:0.5, y2:0.4, stop:0 rgba(115, 115, 115, 255), stop:1 rgba(62, 62, 62, 255));
+	border-right-color: qlineargradient(spread:pad, x1:0.4, y1:0.5, x2:0.6, y2:0.5, stop:0 rgba(115, 115, 115, 255), stop:1 rgba(62, 62, 62, 255));
+	border-left-color: qlineargradient(spread:pad, x1:0.6, y1:0.5, x2:0.4, y2:0.5, stop:0 rgba(115, 115, 115, 255), stop:1 rgba(62, 62, 62, 255));
+	border-bottom-color: rgb(58, 58, 58);
+	border-bottom-width: 1px;
+	border-style: solid;
+	border-width: 2px; border-radius: 6px;
+	
+padding: 0 8px;
+</string>
+              </property>
+              <item>
+               <property name="text">
+                <string>----Publication Year----</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item row="0" column="4">
+             <widget class="QComboBox" name="comboBox_6">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">border-style: outset;
+	border-width: 2px;
+	border-top-color: qlineargradient(spread:pad, x1:0.5, y1:0.6, x2:0.5, y2:0.4, stop:0 rgba(115, 115, 115, 255), stop:1 rgba(62, 62, 62, 255));
+	border-right-color: qlineargradient(spread:pad, x1:0.4, y1:0.5, x2:0.6, y2:0.5, stop:0 rgba(115, 115, 115, 255), stop:1 rgba(62, 62, 62, 255));
+	border-left-color: qlineargradient(spread:pad, x1:0.6, y1:0.5, x2:0.4, y2:0.5, stop:0 rgba(115, 115, 115, 255), stop:1 rgba(62, 62, 62, 255));
+	border-bottom-color: rgb(58, 58, 58);
+	border-bottom-width: 1px;
+	border-style: solid;
+	border-width: 2px; border-radius: 6px;
+	
+padding: 0 8px;
+</string>
+              </property>
+              <item>
+               <property name="text">
+                <string>----Author----</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item row="0" column="5">
+             <widget class="QPushButton" name="pushButton_9">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="text">
+               <string>search</string>
+              </property>
+             </widget>
+            </item>
            </layout>
           </widget>
           <widget class="QWidget" name="tab_4">
@@ -1537,23 +1511,49 @@ padding: 0 8px;
             <string>History</string>
            </attribute>
            <layout class="QGridLayout" name="gridLayout_8">
-            <item row="0" column="5">
-             <widget class="QLabel" name="label_32">
+            <item row="0" column="4">
+             <spacer name="horizontalSpacer_114">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeType">
+               <enum>QSizePolicy::Maximum</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item row="0" column="3">
+             <widget class="QComboBox" name="comboBox_14">
               <property name="sizePolicy">
-               <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+               <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
                 <horstretch>0</horstretch>
                 <verstretch>0</verstretch>
                </sizepolicy>
               </property>
               <property name="font">
                <font>
-                <family>MS Shell Dlg 2</family>
                 <weight>75</weight>
                 <bold>true</bold>
                </font>
               </property>
-              <property name="text">
-               <string>Fees</string>
+              <property name="styleSheet">
+               <string notr="true">border-style: outset;
+	border-width: 2px;
+	border-top-color: qlineargradient(spread:pad, x1:0.5, y1:0.6, x2:0.5, y2:0.4, stop:0 rgba(115, 115, 115, 255), stop:1 rgba(62, 62, 62, 255));
+	border-right-color: qlineargradient(spread:pad, x1:0.4, y1:0.5, x2:0.6, y2:0.5, stop:0 rgba(115, 115, 115, 255), stop:1 rgba(62, 62, 62, 255));
+	border-left-color: qlineargradient(spread:pad, x1:0.6, y1:0.5, x2:0.4, y2:0.5, stop:0 rgba(115, 115, 115, 255), stop:1 rgba(62, 62, 62, 255));
+	border-bottom-color: rgb(58, 58, 58);
+	border-bottom-width: 1px;
+	border-style: solid;
+	border-width: 2px; border-radius: 6px;
+	
+padding: 0 8px;
+</string>
               </property>
              </widget>
             </item>
@@ -1833,21 +1833,19 @@ padding: 0 8px;
               </property>
              </widget>
             </item>
-            <item row="0" column="1">
-             <spacer name="horizontalSpacer_112">
-              <property name="orientation">
-               <enum>Qt::Horizontal</enum>
+            <item row="0" column="12" colspan="3">
+             <widget class="QPushButton" name="pushButton_13">
+              <property name="font">
+               <font>
+                <family>MS Shell Dlg 2</family>
+                <weight>50</weight>
+                <bold>false</bold>
+               </font>
               </property>
-              <property name="sizeType">
-               <enum>QSizePolicy::Maximum</enum>
+              <property name="text">
+               <string>Search</string>
               </property>
-              <property name="sizeHint" stdset="0">
-               <size>
-                <width>40</width>
-                <height>20</height>
-               </size>
-              </property>
-             </spacer>
+             </widget>
             </item>
             <item row="0" column="0">
              <widget class="QLineEdit" name="lineEdit_8">
@@ -1868,6 +1866,58 @@ padding: 0 8px;
                <string>Enter User Name</string>
               </property>
              </widget>
+            </item>
+            <item row="0" column="11">
+             <spacer name="horizontalSpacer_113">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeType">
+               <enum>QSizePolicy::MinimumExpanding</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item row="0" column="5">
+             <widget class="QLabel" name="label_32">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <family>MS Shell Dlg 2</family>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>Fees</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <spacer name="horizontalSpacer_112">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeType">
+               <enum>QSizePolicy::Maximum</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
             </item>
             <item row="0" column="7">
              <widget class="QComboBox" name="comboBox_19">
@@ -1899,96 +1949,6 @@ padding: 0 8px;
               </property>
              </widget>
             </item>
-            <item row="0" column="3">
-             <widget class="QComboBox" name="comboBox_14">
-              <property name="sizePolicy">
-               <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
-                <horstretch>0</horstretch>
-                <verstretch>0</verstretch>
-               </sizepolicy>
-              </property>
-              <property name="font">
-               <font>
-                <weight>75</weight>
-                <bold>true</bold>
-               </font>
-              </property>
-              <property name="styleSheet">
-               <string notr="true">border-style: outset;
-	border-width: 2px;
-	border-top-color: qlineargradient(spread:pad, x1:0.5, y1:0.6, x2:0.5, y2:0.4, stop:0 rgba(115, 115, 115, 255), stop:1 rgba(62, 62, 62, 255));
-	border-right-color: qlineargradient(spread:pad, x1:0.4, y1:0.5, x2:0.6, y2:0.5, stop:0 rgba(115, 115, 115, 255), stop:1 rgba(62, 62, 62, 255));
-	border-left-color: qlineargradient(spread:pad, x1:0.6, y1:0.5, x2:0.4, y2:0.5, stop:0 rgba(115, 115, 115, 255), stop:1 rgba(62, 62, 62, 255));
-	border-bottom-color: rgb(58, 58, 58);
-	border-bottom-width: 1px;
-	border-style: solid;
-	border-width: 2px; border-radius: 6px;
-	
-padding: 0 8px;
-</string>
-              </property>
-             </widget>
-            </item>
-            <item row="0" column="12" colspan="3">
-             <widget class="QPushButton" name="pushButton_13">
-              <property name="font">
-               <font>
-                <family>MS Shell Dlg 2</family>
-                <weight>50</weight>
-                <bold>false</bold>
-               </font>
-              </property>
-              <property name="text">
-               <string>Search</string>
-              </property>
-             </widget>
-            </item>
-            <item row="0" column="11">
-             <spacer name="horizontalSpacer_113">
-              <property name="orientation">
-               <enum>Qt::Horizontal</enum>
-              </property>
-              <property name="sizeType">
-               <enum>QSizePolicy::MinimumExpanding</enum>
-              </property>
-              <property name="sizeHint" stdset="0">
-               <size>
-                <width>40</width>
-                <height>20</height>
-               </size>
-              </property>
-             </spacer>
-            </item>
-            <item row="3" column="12" colspan="3">
-             <widget class="QPushButton" name="pushButton_80">
-              <property name="font">
-               <font>
-                <family>MS Shell Dlg 2</family>
-                <weight>50</weight>
-                <bold>false</bold>
-               </font>
-              </property>
-              <property name="text">
-               <string>Export</string>
-              </property>
-             </widget>
-            </item>
-            <item row="0" column="4">
-             <spacer name="horizontalSpacer_114">
-              <property name="orientation">
-               <enum>Qt::Horizontal</enum>
-              </property>
-              <property name="sizeType">
-               <enum>QSizePolicy::Maximum</enum>
-              </property>
-              <property name="sizeHint" stdset="0">
-               <size>
-                <width>40</width>
-                <height>20</height>
-               </size>
-              </property>
-             </spacer>
-            </item>
            </layout>
           </widget>
           <widget class="QWidget" name="tab">
@@ -1996,38 +1956,40 @@ padding: 0 8px;
             <string>Profile</string>
            </attribute>
            <layout class="QGridLayout" name="gridLayout_4">
-            <item row="5" column="1">
-             <widget class="QLineEdit" name="lineEdit_3">
+            <item row="5" column="0">
+             <widget class="QLabel" name="label_5">
               <property name="sizePolicy">
-               <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+               <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
                 <horstretch>0</horstretch>
                 <verstretch>0</verstretch>
                </sizepolicy>
               </property>
               <property name="font">
                <font>
-                <family>Segoe UI</family>
                 <weight>75</weight>
                 <bold>true</bold>
                </font>
               </property>
-              <property name="placeholderText">
+              <property name="text">
                <string>Username</string>
               </property>
              </widget>
             </item>
-            <item row="1" column="2">
-             <widget class="Line" name="line">
-              <property name="styleSheet">
-               <string notr="true">border:none;</string>
-              </property>
-              <property name="lineWidth">
-               <number>0</number>
-              </property>
+            <item row="8" column="1">
+             <spacer name="verticalSpacer_4">
               <property name="orientation">
-               <enum>Qt::Horizontal</enum>
+               <enum>Qt::Vertical</enum>
               </property>
-             </widget>
+              <property name="sizeType">
+               <enum>QSizePolicy::Maximum</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>20</width>
+                <height>40</height>
+               </size>
+              </property>
+             </spacer>
             </item>
             <item row="2" column="1">
              <widget class="QLineEdit" name="lineEdit_13">
@@ -2046,65 +2008,6 @@ padding: 0 8px;
               </property>
               <property name="placeholderText">
                <string>National ID</string>
-              </property>
-             </widget>
-            </item>
-            <item row="6" column="1">
-             <widget class="QLineEdit" name="lineEdit_24">
-              <property name="sizePolicy">
-               <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
-                <horstretch>0</horstretch>
-                <verstretch>0</verstretch>
-               </sizepolicy>
-              </property>
-              <property name="font">
-               <font>
-                <family>Segoe UI</family>
-                <weight>75</weight>
-                <bold>true</bold>
-               </font>
-              </property>
-              <property name="placeholderText">
-               <string>Password</string>
-              </property>
-             </widget>
-            </item>
-            <item row="1" column="0">
-             <widget class="QLabel" name="label">
-              <property name="sizePolicy">
-               <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
-                <horstretch>0</horstretch>
-                <verstretch>0</verstretch>
-               </sizepolicy>
-              </property>
-              <property name="font">
-               <font>
-                <weight>75</weight>
-                <bold>true</bold>
-               </font>
-              </property>
-              <property name="text">
-               <string>Name</string>
-              </property>
-             </widget>
-            </item>
-            <item row="4" column="1">
-             <widget class="QLineEdit" name="lineEdit">
-              <property name="sizePolicy">
-               <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
-                <horstretch>0</horstretch>
-                <verstretch>0</verstretch>
-               </sizepolicy>
-              </property>
-              <property name="font">
-               <font>
-                <family>Segoe UI</family>
-                <weight>75</weight>
-                <bold>true</bold>
-               </font>
-              </property>
-              <property name="placeholderText">
-               <string>Email</string>
               </property>
              </widget>
             </item>
@@ -2128,8 +2031,8 @@ padding: 0 8px;
               </property>
              </widget>
             </item>
-            <item row="1" column="1">
-             <widget class="QLineEdit" name="lineEdit_4">
+            <item row="6" column="1">
+             <widget class="QLineEdit" name="lineEdit_24">
               <property name="sizePolicy">
                <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
                 <horstretch>0</horstretch>
@@ -2144,58 +2047,7 @@ padding: 0 8px;
                </font>
               </property>
               <property name="placeholderText">
-               <string>Name</string>
-              </property>
-             </widget>
-            </item>
-            <item row="8" column="1">
-             <spacer name="verticalSpacer_5">
-              <property name="orientation">
-               <enum>Qt::Vertical</enum>
-              </property>
-              <property name="sizeType">
-               <enum>QSizePolicy::Maximum</enum>
-              </property>
-              <property name="sizeHint" stdset="0">
-               <size>
-                <width>20</width>
-                <height>40</height>
-               </size>
-              </property>
-             </spacer>
-            </item>
-            <item row="7" column="1">
-             <spacer name="verticalSpacer_4">
-              <property name="orientation">
-               <enum>Qt::Vertical</enum>
-              </property>
-              <property name="sizeType">
-               <enum>QSizePolicy::Maximum</enum>
-              </property>
-              <property name="sizeHint" stdset="0">
-               <size>
-                <width>20</width>
-                <height>40</height>
-               </size>
-              </property>
-             </spacer>
-            </item>
-            <item row="2" column="0">
-             <widget class="QLabel" name="label_2">
-              <property name="sizePolicy">
-               <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
-                <horstretch>0</horstretch>
-                <verstretch>0</verstretch>
-               </sizepolicy>
-              </property>
-              <property name="font">
-               <font>
-                <weight>75</weight>
-                <bold>true</bold>
-               </font>
-              </property>
-              <property name="text">
-               <string>National ID</string>
+               <string>Password</string>
               </property>
              </widget>
             </item>
@@ -2237,24 +2089,41 @@ padding: 0 8px;
               </property>
              </widget>
             </item>
-            <item row="5" column="0">
-             <widget class="QLabel" name="label_5">
+            <item row="4" column="1">
+             <widget class="QLineEdit" name="lineEdit">
               <property name="sizePolicy">
-               <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+               <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
                 <horstretch>0</horstretch>
                 <verstretch>0</verstretch>
                </sizepolicy>
               </property>
               <property name="font">
                <font>
+                <family>Segoe UI</family>
                 <weight>75</weight>
                 <bold>true</bold>
                </font>
               </property>
-              <property name="text">
-               <string>Username</string>
+              <property name="placeholderText">
+               <string>Email</string>
               </property>
              </widget>
+            </item>
+            <item row="9" column="1">
+             <spacer name="verticalSpacer_5">
+              <property name="orientation">
+               <enum>Qt::Vertical</enum>
+              </property>
+              <property name="sizeType">
+               <enum>QSizePolicy::Maximum</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>20</width>
+                <height>40</height>
+               </size>
+              </property>
+             </spacer>
             </item>
             <item row="6" column="0">
              <widget class="QLabel" name="label_6">
@@ -2272,6 +2141,104 @@ padding: 0 8px;
               </property>
               <property name="text">
                <string>Password</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="1">
+             <widget class="QLineEdit" name="lineEdit_3">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <family>Segoe UI</family>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="placeholderText">
+               <string>Username</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QLineEdit" name="lineEdit_4">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <family>Segoe UI</family>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="placeholderText">
+               <string>Name</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="QLabel" name="label">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>Name</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="0">
+             <widget class="QLabel" name="label_2">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>National ID</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="2">
+             <widget class="Line" name="line">
+              <property name="styleSheet">
+               <string notr="true">border:none;</string>
+              </property>
+              <property name="lineWidth">
+               <number>0</number>
+              </property>
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+             </widget>
+            </item>
+            <item row="7" column="0">
+             <widget class="QPushButton" name="pushButton">
+              <property name="text">
+               <string>Confirm</string>
               </property>
              </widget>
             </item>
@@ -2298,7 +2265,7 @@ padding: 0 8px;
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources>
-  <include location="main.qrc"/>
+  <include location="icons.qrc"/>
  </resources>
  <connections/>
 </ui>
